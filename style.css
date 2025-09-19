@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+ 
+ 
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#012340;
+}
+ 
+ 
+.container{
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+    color: #f3f4f6;
+}
+  
+header{
+    background-color: rgb(75, 177, 172);
+    color: blanchedalmond;
+}
+ 
+ 
+header .topo{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+ 
+ 
+header h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ 
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+ 
+nav a{
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255,.15);
+    color: #012340;
+    text-decoration: none;
+}
+nav a:hover {
+    background: rgba(255, 255, 255,.25);
+}
+
+section{
+    padding: 20px 0;
+    color: white;
+}
+.caixa{
+    background: rgb(75, 177, 172);
+    border-radius: 10px;
+    padding: 16px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border-bottom:1px solid red;
+}
+th{
+    background: #f3f4f6;
+    font-weight: 600;
+}
+ 
+.form{
+    display:grid;
+}
+
+.form-grid2 {
+    display:grid;
+    gap: 10px;
+}
+ 
+label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    /* border:  1px solid pink; */
+    border-radius: 20px;
+    color: black;
+}
+button, .btn{
+    display: inline-block;
+    padding: 10px 14px;
+    border: 0;
+    background: #012340;
+    color: #025959;
+    cursor: pointer;
+    color: #04D939;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main{
+    height: 86vh;
+}
+
+.areainfos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.infos{
+    color: #f3f4f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid black;
+    width: 350px;
+    background: rgb(75, 177, 172);
+    gap: 10px;
+}
+
+.es{
+    width: 300px;
+}
+
+.login{
+    padding: 5px 10px;
+    background: #012340;   
+}
+
+.login a{
+    color: #04D939;
+    text-decoration: none;
+}
+
+.destaque{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.containerforms{
+    width: 95%;
+    max-width: 980px;
+    margin: 20px auto;
+    color: #f3f4f6;
+}
+
+/* =======================AGENDAS=================== */
+
+.containeragendamentos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            background-color: white;
+        }
+
+        caption{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: rgb(61, 122, 119);
+            padding: 5px;
+            font-size:20px ;
+            border-left: solid 2px black;
+            border-top: solid 2px black;
+            border-right: solid 2px black;
+
+        }
+
+        .colunas{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            background: rgb(75, 177, 172);
+            color: #04D939;
+
+        }
+
+        tr, td{
+            border: 1px solid black;
+        }
+
+        label{
+            color: #f3f4f6;
+        }

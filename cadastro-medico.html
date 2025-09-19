@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Nego <strong>DOC</strong></h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cadastro-paciente.html">Cadastro Paciente</a></li>
+                    <li><a href="cadastro-medico.html">Cadastro Médico</a></li>
+                    <li><a href="agendas.html">Agendas</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="containerforms">
+            <fieldset>
+                <legend>Cadastro do <strong>MÉDICO</strong></legend>
+                <p>preencha os campos para que possamos fazer seu cadastro.</p>
+                <section>
+                    <div class="form-grid2">
+                        <div>
+                            <label for="txtNome">Nome *</label>
+                            <input id="txtNome" type="text" placeholder="Seu nome aqui" required>
+                        </div>
+
+                        <div>
+                            <label for="txtCRM">CRM *</label>
+                            <input id="txtCRM" type="text" placeholder="Sua CRM aqui" required>
+                        </div>
+
+                        <div>
+                            <label for="txtEstado">Especialidade *</label>
+                            <select name="" id="">
+                                <option value="">Selecione</option>
+                                <option value="pt">Clínica Geral</option>
+                                <option value="um">Pediatria</option>
+                                <option value="br">Ortopedia</option>
+                                <option value="am">Cardiologia</option>
+                                <option value="sus">Ginecologia</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="txtEmail">Email *</label>
+                            <input id="txtEmail" type="email" placeholder="nome@senac.br">
+                        </div>
+
+                        <div>
+                            <label for="txtTelefone" placeholder="Seu numero aqui">Telefone *</label>
+                            <input id="txtTelefone" type="tel" required>
+                        </div>
+
+
+
+                        <div>
+                            <label>Tipo de contrato *</label>
+                            <label for=""><input type="radio" name="clt" value="clt">CLT</label>
+                            <label for=""><input type="radio" name="pj" value="pj">PJ</label>
+                        </div>
+
+                        <div>
+                            <label for="text">Fale sobre você *</label>
+                            <textarea name="mcurriculo" id="mcurriculo" placeholder="Sobre você aqui"></textarea>
+                        </div>
+
+                        <p>
+                            <button type="submit">Salvar</button>
+                            <button class="btn" type="reset">Limpar Campos</button>
+                        </p>
+                    </div>
+                </section>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
